@@ -1,0 +1,125 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family: 'Poppins', sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #002339;
+    color: white;
+}
+
+#container{
+    display: flex; 
+    justify-content: center; 
+    align-items: center;
+    min-height: 400px;
+    place-items: center;
+    
+}
+
+.box1{
+    height: 370px;
+    width: 335px;
+    margin: 60px; 
+}
+
+.box2{
+    height: 370px;
+    width: 335px;
+    margin: 60px; 
+   
+}
+
+.box3{
+    height: 370px;
+    width: 335px;
+    margin: 60px; 
+}
+
+i{
+    color: rgb(13, 214, 13);
+    margin-right: 20px;
+}
+
+.show{
+    width: 100%; 
+    margin-top: 50px; 
+    margin-bottom: 30px; 
+    background: white; 
+    color: #333; 
+    display: flex; 
+    align-items: center; 
+    justify-content: space-between; 
+    padding: 26px 20px; 
+    border-radius: 5px; 
+}
+
+.box1 h1{
+    font-weight: 500; 
+    font-size: 45px; 
+}
+
+.box2 h1{
+    font-weight: 500; 
+    font-size: 45px; 
+}
+
+.box1 h1 span{
+    color: rgb(13, 214, 13);
+    border-bottom: 4px solid rgb(13, 214, 13);
+    padding-bottom: 7px; 
+}
+
+.box2 h1 span{
+    color: rgb(13, 214, 13);
+    border-bottom: 4px solid rgb(13, 214, 13);
+    padding-bottom: 7px; 
+}
+
+.show i{
+    width: 30px; 
+    cursor: pointer; 
+}
+
+.show input{
+    border: 0; 
+    outline: 0; 
+    font-size: 24px; 
+}
+
+.box1 button i{
+    margin-right: 10px; 
+}
+
+.box1 button{
+    border: 0; 
+    outline: 0; 
+    background: #027d43; 
+    color: white; 
+    font-size: 22px; 
+    font-weight: 300; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 16px 26px; /* topbottom, left right*/
+    border-radius: 5px; 
+    cursor: pointer; 
+}
+
+
+.box2 button{
+    border: 0; 
+    outline: 0; 
+    background: #027d43; 
+    color: white; 
+    font-size: 22px; 
+    font-weight: 300; 
+    display: flex; 
+    align-items: center; 
+    justify-content: center; 
+    padding: 16px 26px; /* topbottom, left right*/
+    border-radius: 5px; 
+    cursor: pointer; 
+}
